@@ -6,6 +6,7 @@ import (
 	"time"
 )
 
+// my block type
 type Block struct {
 	timestamp    time.Time
 	transactions []string
